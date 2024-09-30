@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Jersey Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000000; /* Changed to black */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .category, .featured {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .category div, .featured div {
+            background-color: white;
+            padding: 20px;
+            width: 45%;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .contact-form {
+            margin: 0 auto;
+            max-width: 400px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Football Jersey Store</h1>
+        <p>Your one-stop shop for men's and women's football shirts!</p>
+        <!-- Logo placeholder -->
+        <p>[Logo will go here]</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#featured">Featured</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Store</h2>
+        <p>We offer a wide range of football jerseys for both men and women. Shop by your favorite team or player and show your support!</p>
+    </section>
+
+    <section id="shop">
+        <h2>Shop by Category</h2>
+        <div class="category">
+            <div>
+                <h3>Men's Wear</h3>
+                <p>Browse our collection of men's football shirts.</p>
+                <button>Shop Now</button>
+            </div>
+            <div>
+                <h3>Women's Wear</h3>
+                <p>Check out our range of women's football jerseys.</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured">
+        <h2>Featured Products</h2>
+        <div class="featured">
+            <div>
+                <h3>Player Jersey 1</h3>
+                <p>A popular player jersey.</p>
+                <button>Buy Now</button>
+            </div>
+            <div>
+                <h3>Team Jersey 2</h3>
+                <p>A top-selling team jersey.</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Football Jersey Store &copy; 2024</p>
+    </footer>
+</body>
+</html>
